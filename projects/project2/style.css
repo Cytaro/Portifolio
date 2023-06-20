@@ -1,0 +1,308 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax {
+    background-color: #1B263C;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 150vh;
+    z-index: -9999;
+}
+body{
+    font-family: 'Inter';
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 58px;
+    background: #1B263C;
+    box-shadow:  5px 5px 0px #0b0f18,
+                 -5px -5px 0px #2b3d60;
+}
+li a:hover{
+    color: #3B517B;
+}
+.sign{
+    background-color: #3B517B;
+    border-radius: 4px;
+}
+.sign:hover{
+    color: #6D9FFF;
+}
+.registration{
+    background-color: #6D9FFF;
+    border-radius: 4px;
+}
+.main{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.logo{
+    width: 476px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 155px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+}
+.logo2{
+    width: 476px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 155px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+}
+.logo5{
+    width: 406px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 155px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: default;
+    margin-top: 300px;
+    display: flex;
+    position: absolute;
+    background-color: #0058FF;
+    border-radius: 20px;
+
+    border-radius: 58px;
+    background: #0058FF;
+    box-shadow:  5px 5px 0px #002366,
+                 -5px -5px 0px #008dff;
+}
+.start{
+    text-decoration: none;
+    color: #fff;
+    height: min-content;
+}
+.start:hover{
+    opacity: 0.8;
+}
+.img_cell{
+    display: flex;
+    margin: auto;
+    float: right;
+    width: 400px;
+}
+/*******************/
+.logo3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+    display: flex;
+    top: 0;
+    bottom: 250px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    width: max-content;
+    height: max-content;
+}
+.main2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 500px;
+    top: 150px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 80px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.reasons{
+    border-radius: 20px;
+    width: 150px;
+    height: 200px;
+    background: #c5cfe2;
+    box-shadow:  5px 5px 0px #4f535a,
+                 -5px -5px 0px #ffffff;
+}
+.reasons:hover{
+    background-color: rgb(135, 157, 177);
+    transition: 0.4s;
+}
+.reasons2{
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    background: #5b5b5b;
+    box-shadow:  5px 5px 0px #242424,
+                 -5px -5px 0px #929292;
+}
+.reasons2:hover{
+    background-color: rgb(155, 155, 155);
+    transition: 0.4s;
+}
+.reasons3{
+    border-radius: 20px;
+    width: 150px;
+    height: 200px;
+    background: #4e6ead;
+    box-shadow:  5px 5px 0px #1f2c45,
+                 -5px -5px 0px #7db0ff;
+}
+.reasons3:hover{
+    background-color: rgb(100, 143, 143);
+    transition: 0.4s;
+}
+.reasons4{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    background: #c2b542;
+    box-shadow:  5px 5px 0px #4e481a,
+                 -5px -5px 0px #ffff6a;
+}
+.reasons4:hover{
+    background-color: #817d5a;
+    transition: 0.4s;
+}
+.reasons5{
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    background: #8e54d1;
+    box-shadow:  5px 5px 0px #392254,
+                 -5px -5px 0px #e386ff;
+}
+.reasons5:hover{
+    background-color: #624f77;
+    transition: 0.4s;
+}
+.reasons6{
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    background: #54d169;
+    box-shadow:  5px 5px 0px #22542a,
+                 -5px -5px 0px #86ffa8;
+}
+.reasons6:hover{
+    background-color: #2c6836;
+    transition: 0.4s;
+}
+
+
+.logo4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: default;
+    display: flex;
+    right: 0;
+    left: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    width: max-content;
+    height: max-content;
+}
+.main3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    height: 500px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 80px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    width: 250px;
+    height: 100px;
+    background-color: #3B517B;
+    border-radius: 20px;
+    background: #3B517B;
+    box-shadow:  5px 5px 0px #182031,
+                 -5px -5px 0px #5e82c5;
+}
+.note{
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 12px;
+    color: #fff;
+    cursor: default;
+}
+.text{
+    border: 3px outset white;
+    width: 250px;
+    height: 65px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: default;
+}
+.bi:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
