@@ -141,7 +141,7 @@ a{
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  border: 2px outset ;
+  border: 2px outset;
   box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
 }
 .grid-item2{
@@ -166,7 +166,7 @@ a{
 }
 .tooltiptext {
   visibility: hidden;
-  background-color: rgb(201, 201, 201);
+  background-color: rgba(201, 201, 201, 0.849);
   color: #000;
   text-align: center;
   border-radius: 6px;
@@ -234,4 +234,82 @@ img:hover{
 }
 h4, p{
   text-align: start;
+}
+/********RESPONSIVE**********/
+@media only screen and (max-width: 1570px) {
+  .card_Project{
+    width: 350px;
+    height: 350px;
+  }
+  .container_content{
+    font-size: 15px;
+  }
+  .card2{
+    width: 200px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .card_Project{
+    width: 250px;
+    height: 250px;
+  }
+  .container_content{
+    font-size: 10px;
+  }
+  .card2{
+    width: 150px;
+    height: 30px;
+  }
+  .bi{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .middle {
+    font-size: 50px;
+  }
+  .card_Project{
+    width: 250px;
+    height: 250px;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .grid-container2{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .tooltiptext{
+    font-size: 10px;
+    padding: 5px 5px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .middle {
+    font-size: 30px;
+  }
+  .end2{
+    font-size: 10px;
+  }
+  .grid-container2{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .card2{
+    width: 80px;
+    height: 10px;
+  }
+  .tooltip{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .middle {
+    font-size: 20px;
+  }
+  .end2{
+    font-size: 8px;
+  }
 }
