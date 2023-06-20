@@ -1,0 +1,308 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parallax {
+    background-color: #23222B;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 150vh;
+    z-index: -9999;
+}
+.ul_nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.li_nav {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 58px;
+    background: linear-gradient(145deg, #201f27, #25242e);
+    box-shadow:  5px 5px 1px #0e0e11,
+                 -5px -5px 1px #383645;
+}
+.li_nav .nav_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.li_nav .nav_a:hover{
+    color: #7F7D8B;
+}
+.main{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+.logo{
+    width: 476px;
+    height: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 250px;
+    line-height: 155px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.123);
+    position: absolute;
+    cursor: default;
+}
+.sub_logo{
+    width: 476px;
+    height: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 100px;
+    cursor: default;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+.ul_sub_logo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.li_sub_logo{
+    padding: 0;
+}
+.li_sub_logo{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+}
+.li_sub_logo2{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.price_logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.price_lost{
+    text-decoration-line: line-through;
+    color: #7F7D8B;
+    margin-right: 10px;
+}
+.new_price{
+    color: #333289;
+}
+.logitech{
+    color: #fff;
+    font-weight: 800;
+    margin-right: 0px;
+}
+.image_logo{
+    display: flex;
+    margin: auto;
+    float: right;
+}
+/**************************/
+.grid-container {
+    display: grid;
+    top: 0;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    grid-template-columns: auto auto;
+    text-align: center;
+    border: 2px outset rgba(255, 255, 255, 0.205);
+  }
+.grid-container > div {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}  
+
+.item_1, .item_2, .item_3, .item_4{
+    display: flex;
+    align-items: center;
+}
+.title_item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    cursor: default;
+}
+.price_item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 39px;
+    color: #7a7add;
+    cursor: default;
+}
+.bd_item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.19);
+    position: absolute;
+    z-index: 1;
+    width: max-content;
+    cursor: default;
+}
+.title{
+    z-index: 100;
+}
+.img_item{
+    margin-left: 45px;
+    z-index: 100;
+    padding: 50px;
+    width: 300px;
+}
+
+.addcart2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 29px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: default;
+    border-radius: 58px;
+    background: linear-gradient(145deg, #201f27, #25242e);
+    box-shadow:  8px 8px 17px #1e1d25,
+                 -8px -8px 17px #282731;
+}
+/**************************/
+.grid-container3{
+    display: grid;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: auto auto;
+    text-align: center;
+    border: 2px outset rgba(255, 255, 255, 0.205);
+}
+.bd_item3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 220px;
+    line-height: 116px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.19);
+    position: absolute;
+    display: grid;
+    cursor: default;
+    right: 0;
+    left: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.grid-containeritems3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+}
+.grid-item3{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.nameitem3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    cursor: default;
+}
+.pricenewitem3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: #333289;
+    cursor: default;
+}
+.addcart3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: default;
+    border-radius: 58px;
+    background: linear-gradient(145deg, #201f27, #25242e);
+    box-shadow:  5px 5px 10px #0e0e11,
+                 -5px -5px 10px #383645;
+}
+.img_item2{
+    z-index: 100;
+    padding: 40px;
+    height: 250px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
