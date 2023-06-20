@@ -1,0 +1,237 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body, html, * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Fraunces', serif;
+}
+.parallax {
+  background-image: url('/assets/back_2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  height: 150vh;
+}
+/***********************************************/
+#navbar {
+  overflow: hidden;
+  height: 55px;
+  transition: 0.4s;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar-right {
+  font-size: 20px;
+  transition: 0.4s;
+}
+.square{
+    width: 100%;
+    height: 2000px;
+    background: gray;
+}
+.section1{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  width: max-content;
+}
+.welcome{
+  width: max-content;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  cursor: default;
+}
+.middle{
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+}
+.middle:hover{
+  transition: 0.4s;
+  color: rgb(73, 73, 73);
+}
+.start{
+  text-align: start;
+  align-items: start;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+}
+.end{
+  text-align: end;
+  align-items: end;
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+}
+.end2{
+  text-align: center;
+  color: rgb(226, 214, 214);
+  text-transform: uppercase;
+  border: 1px outset white;
+  text-shadow: 1px 1px 1px rgb(77, 69, 69);
+}
+.menu{
+  text-decoration: none;
+  display: flex;
+  color: white;
+  padding: 10px;
+  float: right;
+  text-transform: uppercase;
+}
+.menu:hover{
+  transition: 0.4s;
+  opacity: 0.5;
+}
+.logo{
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  float: left;
+  text-transform: uppercase;
+  writing-mode: horizontal-tb;
+  
+}
+.logo:hover{
+  color: rgb(70, 70, 70);
+  transition: 0.6s;
+}
+a{
+  float: right;
+  padding: 10px;
+}
+.bi:hover{
+  opacity: 0.4;
+  transition: 0.5s;
+}
+/***********************************************/
+.card2{
+  width: 300px;
+  height: 80px;
+  color: white;   
+}
+.title2{
+  cursor: default;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.title2:hover{
+  color: rgb(156, 156, 156);
+  transition: 0.5s;
+}
+.content_card2{
+  font-weight: bolder;
+  cursor: default;
+}
+.grid-container2{
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  border: 2px outset ;
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+}
+.grid-item2{
+  padding: 50px;
+}
+.containerflex2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.tooltip {
+  display: flex;
+  cursor: default;
+  width: min-content;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.tooltiptext {
+  visibility: hidden;
+  background-color: rgb(201, 201, 201);
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+  position: absolute;
+  z-index: 1;
+  cursor: default;
+  font-size: 0px;
+}  
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  width: 250px;
+  height: min-content;
+  transition: 0.3s ease-in-out;
+  font-size: 20px;
+}
+a{
+  color: rgb(135, 135, 206);
+}
+a:hover{
+  color: rgb(61, 61, 139); 
+  transition: 0.4s;
+}
+/***********************************************/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 10px;
+  text-align: center;
+}
+.containerflex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.card_Project{
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+  border: 2px outset;
+  width: 400px;
+  height: 450px;
+  padding: 20px;
+  background-color: rgba(150, 150, 150, 0.199);
+  border-radius: 15px;
+}
+.container_content {
+  margin-top: 40px;
+  padding: 2px 16px;
+  color: #fff;
+  cursor: default;
+}
+img{
+  width: 100%;
+  border-radius: 20px;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-out;
+}
+h4, p{
+  text-align: start;
+}
