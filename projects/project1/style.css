@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.parallax {
+.parallax{
     background-color: #23222B;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -45,14 +45,13 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    margin-left: 100px;
+    right: 0;
+    left: 0;
     justify-content: center;
     align-items: center;
     height: max-content;
 }
 .logo{
-    width: 476px;
-    height: 155px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -64,8 +63,6 @@
     cursor: default;
 }
 .sub_logo{
-    width: 476px;
-    height: 155px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
@@ -126,82 +123,92 @@
     display: flex;
     margin: auto;
     float: right;
+    width: 500px;
+    height: 500px;
 }
 /**************************/
-.grid-container {
+.grid-container2{
     display: grid;
-    top: 0;
-    bottom: 50px;
-    right: 0;
-    left: 0;
-    margin: auto;
-    grid-template-columns: auto auto;
-    text-align: center;
-    border: 2px outset rgba(255, 255, 255, 0.205);
-  }
-.grid-container > div {
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-}  
-
-.item_1, .item_2, .item_3, .item_4{
-    display: flex;
     align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: auto auto;
+    text-align: center;
+    border: 2px outset rgba(255, 255, 255, 0.205);
 }
-.title_item{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 32px;
-    line-height: 39px;
-    color: #fff;
-    cursor: default;
-}
-.price_item{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 32px;
-    line-height: 39px;
-    color: #7a7add;
-    cursor: default;
-}
-.bd_item{
+.bd_item2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
-    line-height: 116px;
+    font-size: 220px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.19);
     position: absolute;
-    z-index: 1;
-    width: max-content;
+    display: grid;
+    cursor: default;
+    right: 0;
+    left: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.grid-containeritems2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    z-index: 10;
+}
+.grid-item2{
+    padding: 20px;
+    text-align: center;
+}
+.nameitem2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
     cursor: default;
 }
-.title{
-    z-index: 100;
+.pricenewitem2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    color: #333289;
+    cursor: default;
 }
-.img_item{
-    margin-left: 45px;
+.img_item2{
     z-index: 100;
-    padding: 50px;
-    width: 300px;
+    padding: 40px;
+    height: 250px;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+}
 .addcart2{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    font-size: 15px;
-    line-height: 29px;
+    font-size: 25px;
     color: #fff;
     text-transform: uppercase;
     cursor: default;
@@ -230,7 +237,6 @@
     font-style: normal;
     font-weight: 800;
     font-size: 220px;
-    line-height: 116px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.19);
     position: absolute;
@@ -246,7 +252,7 @@
 .grid-containeritems3{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 10px;
+    padding: 0;
     top: 0;
     bottom: 0;
     right: 0;
@@ -259,7 +265,6 @@
 }
 .grid-item3{
     padding: 20px;
-    font-size: 30px;
     text-align: center;
 }
 .nameitem3{
@@ -267,7 +272,6 @@
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
-    line-height: 29px;
     color: #fff;
     cursor: default;
 }
@@ -276,7 +280,6 @@
     font-style: normal;
     font-weight: 800;
     font-size: 32px;
-    line-height: 39px;
     color: #333289;
     cursor: default;
 }
@@ -285,7 +288,6 @@
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
-    line-height: 29px;
     color: #fff;
     text-transform: uppercase;
     cursor: default;
@@ -294,7 +296,7 @@
     box-shadow:  5px 5px 10px #0e0e11,
                  -5px -5px 10px #383645;
 }
-.img_item2{
+.img_item3{
     z-index: 100;
     padding: 40px;
     height: 250px;
@@ -306,3 +308,30 @@ a{
 a:hover{
     opacity: 0.8;
 }
+/*********RESPONSIVE***********/
+@media only screen and (max-width: 1300px){
+    .grid-containeritems2{
+        display: grid;
+        grid-template-columns: auto auto; 
+    }
+    .grid-containeritems3{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .bd_item2{
+        font-size: 100px;
+    }
+    .bd_item3{
+        font-size: 100px;
+    }
+    .logo{
+        font-size: 100px;
+    }
+    .grid-item2{
+       padding: 0;
+    }
+    .grid-item3{
+       padding: 0;
+    }
+}
+
