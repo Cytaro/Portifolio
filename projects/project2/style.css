@@ -240,8 +240,6 @@ li a:hover{
     background-color: #2c6836;
     transition: 0.4s;
 }
-
-
 .logo4{
     font-family: 'Inter';
     font-style: normal;
@@ -305,4 +303,8 @@ li a:hover{
 .bi:hover{
     opacity: 0.5;
     transition: 0.6s;
+}
+/*****RESPONSIVE*******/
+@media only screen and (max-width:1300px){
+    
 }
